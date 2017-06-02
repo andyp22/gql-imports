@@ -1,5 +1,4 @@
-"use strict";
-exports.gqlQueries = {
+export const gqlQueries = {
     me: `
     query Me {
       me {

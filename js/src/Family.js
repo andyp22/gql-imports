@@ -1,5 +1,4 @@
-"use strict";
-class Family {
+export class Family {
     constructor(name) {
         this.name = name;
         this.members = [];
@@ -12,5 +11,4 @@ class Family {
         return this.members.length;
     }
 }
-exports.Family = Family;
 //# sourceMappingURL=Family.js.map

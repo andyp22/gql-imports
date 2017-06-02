@@ -1,9 +1,8 @@
-"use strict";
-const Family_1 = require('./Family');
-class Person {
+import { Family } from './Family';
+export class Person {
     constructor(name) {
         this.name = name;
-        this.family = new Family_1.Family('Orphan');
+        this.family = new Family('Orphan');
         this.family.addMember(this);
     }
     sayHello() {
@@ -16,5 +15,4 @@ class Person {
         return `${this.name} ${this.family.name}`;
     }
 }
-exports.Person = Person;
 //# sourceMappingURL=Person.js.map
