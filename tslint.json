@@ -65,7 +65,7 @@
         "class-name": true,
         "comment-format": [true, "check-space"],
         "export-name": true,
-        "import-name": true,
+        "import-name": false,
         "interface-name": [true, "never-prefix"],
         "jsdoc-format": true,
         "max-func-body-length": [true, 100, {"ignore-parameters-to-function-regex": "describe"}],

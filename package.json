@@ -1,7 +1,7 @@
 {
   "name": "gql-imports",
   "version": "0.1.1",
-  "description": "A library of graphql queries, fragments, mutators, and etc",
+  "description": "A boilerplate for graphql queries, fragments, mutators, and etc",
   "main": "js/index.js",
   "typings": "js/index.d.ts",
   "scripts": {
