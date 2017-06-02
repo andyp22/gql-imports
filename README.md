@@ -3,7 +3,7 @@ A boilerplate package for graphql queries, fragments, mutators, and etc written 
 
 - To compile to JS: `npm run compile`
 
-## Sample Query Example
+## Sample Query Definition
 From `ts/src/gqlQueries.ts`:
 ```javascript
 import gql from 'graphql-tag';
