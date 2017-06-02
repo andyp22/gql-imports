@@ -4,6 +4,7 @@ import * as ChaiString from 'chai-string';
 
 use(ChaiString);
 
+/*
 describe('My Module', () => {
     describe('People', () => {
         let joe: MyModule.Person;
@@ -57,3 +58,4 @@ describe('My Module', () => {
         });
     });
 });
+*/
