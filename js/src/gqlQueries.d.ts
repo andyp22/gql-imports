@@ -1,4 +1,4 @@
 export declare const gqlQueries: {
-    me: string;
-    employees: string;
+    me: any;
+    employees: any;
 };
