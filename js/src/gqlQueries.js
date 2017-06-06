@@ -1,4 +1,4 @@
-import gql from 'graphql-tag';
+var gql = require('graphql-tag');
 
 "use strict";
 var graphql_tag_1 = require('graphql-tag');
