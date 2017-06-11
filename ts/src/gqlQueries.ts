@@ -24,5 +24,42 @@ export const gqlQueries = {
         }
       }
     }
-  `
+  `,
+  dealership: {
+    store: gql`
+      query DealershipStore($storeId: Int) {
+        store(id: $storeId) {
+          id
+          name
+          primaryContact {
+            user {
+              fullName
+              email
+              phone
+            }
+          }
+          organization {
+            id
+            name
+            groups {
+              id
+              name
+            }
+            regions(is_active: true) {
+              id
+              name
+            }
+          }
+          groups {
+            id
+            name
+          }
+          region {
+            id
+            name
+          }
+        }
+      }
+    `
+  }
 };
